@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Posts from './components/Posts';
 
 function App() {
   return (
     <div className="App">
-      <p>Hello redux</p>
+      <Posts />
     </div>
   );
 }
